@@ -1,11 +1,7 @@
-import { Box, Container, Typography, Paper, Chip, Button, IconButton, Avatar, Grid } from '@mui/material';
-import type { GridProps } from '@mui/material';
+import { Box, Container, Typography, Paper, Chip, Button, IconButton } from '@mui/material';
 import { motion } from 'framer-motion';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import GitHubIcon from '@mui/icons-material/GitHub';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import profileImage from '../assets/profile.png';
 import aiPractitioner from '../assets/certifications/aipractioner.png';
 import solutionsArchitectAssociate from '../assets/certifications/solutionsarchitectassociate.png';
@@ -15,42 +11,6 @@ import cesImage from '../assets/events/ces2023.png';
 import hannovermesseImage from '../assets/events/hannovermesse.png';
 
 const Home = () => {
-  const skills = [
-    'Internet of Things (IoT)',
-    'GenAI',
-    'Artificial Intelligence (AI)',
-    'Manufacturing',
-    'Supply Chain Management',
-    'Cloud Architecture',
-    'Digital Transformation',
-    'Industry 4.0',
-  ];
-
-  const experiences = [
-    {
-      company: 'Amazon Web Services (AWS)',
-      position: 'Global Solutions Architect - Automotive & Manufacturing',
-      duration: 'Oct 2020 - Present',
-      location: 'Munich, Germany',
-      responsibilities: [
-        'Establish technical credibility for AWS platforms and Pan Amazon products',
-        'Develop solutions using well-architected guidelines leveraging IoT, ML and GenAI',
-        'Drive evolution of AWS platforms as field CTO',
-      ],
-    },
-    {
-      company: 'RENAULT NISSAN MITSUBISHI ALLIANCE',
-      position: 'Sr.Manager / Solutions Architect - IoT | Cloud | Blockchain | Test Automation',
-      duration: 'Jul 2017 - Oct 2020',
-      location: 'Chennai, India',
-      responsibilities: [
-        'Technical consulting and solution design',
-        'Digital assurance solutions delivery',
-        'Automation platforms, IoT, Blockchain & Cloud solutions implementation',
-      ],
-    },
-  ];
-
   return (
     <Box component="main" sx={{ width: '100%' }}>
       {/* Hero Section */}
